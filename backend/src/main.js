@@ -6,6 +6,7 @@ import pdfParse from "pdf-parse/lib/pdf-parse.js"
 import fs from "fs";
 import path from "path";
 //import pdfParse from "pdf-parse";
+//ciro
 
 // Corregir la obtención de la ruta absoluta del PDF para ES modules
 const __filename = new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1');
